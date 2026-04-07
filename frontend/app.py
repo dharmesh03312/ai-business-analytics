@@ -78,6 +78,7 @@ if analyze_btn and uploaded_file is not None:
                     pdf_request = requests.post(f"{API_BASE}/download-report", files=make_file_payload())
                     if pdf_request.status_code == 200:
                         st.session_state.pdf_report = pdf_request.content
+                        st.rerun()
                 except Exception:
                     pass # Graceful fail state
             else:
