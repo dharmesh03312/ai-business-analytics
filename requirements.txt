@@ -1,0 +1,9 @@
+fastapi
+pandas
+numpy
+scikit-learn
+streamlit
+plotly
+uvicorn
+python-multipart
+reportlab
