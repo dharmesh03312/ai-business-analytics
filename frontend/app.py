@@ -21,7 +21,7 @@ st.title("📊 AI Business Analytics Dashboard")
 st.markdown("Automated insights and performance tracking overview.")
 st.divider()
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://ai-business-analytics.onrender.com"
 
 # 4. State Management
 if 'analyzed_data' not in st.session_state:
